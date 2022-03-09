@@ -11,11 +11,34 @@ body {
 }
 
 button {
+    background-color: #3882F6;
+    border: 0px;
+    border-radius: 4px;
+    width: 120px;
+    height: 30px;
+    color:#E5E7EB;
+    font-family: 'Roboto';
+    font-weight: bold;
+}
 
+h1 {
+    font-size: 42px;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #1F2937;
 }
 
 footer {
-
+    width: 100%;
+    height: 100px;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .header {
@@ -39,24 +62,44 @@ footer {
     margin-left: 100px;
 }
 
-#push-left {
-    margin-left: auto;
+.hero{
+    display: flex;
+    background-color: #1F2937;
 }
 
-#push-right {
-    margin-right: 100px;
+.subtext{
+    font-size: 18px;
+    color: #F9FAF8;
 }
 
 .placeholder {
-
+    width: 525px;
+    height: 240px;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .random-info {
+    display: flex;
+    flex-direction: column;
+}
 
+.illustration-text-container {
+    display: flex;
+}
+
+.illustration {
+    width: 170px;
+    height: 170px;
+    border: 2px solid #3882F6;
+    border-radius: 4px;
 }
 
 .quote-container {
-
+    display: flex;
+    flex-direction: column;
 }
 
 .quote {
@@ -69,4 +112,12 @@ footer {
 
 .cta {
 
+}
+
+#push-left {
+    margin-left: auto;
+}
+
+#push-right {
+    margin-right: 100px;
 }
