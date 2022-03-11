@@ -23,6 +23,7 @@ button {
 
 h1 {
     font-size: 42px;
+    color: #E5E7EB;
 }
 
 h2 {
@@ -63,8 +64,9 @@ footer {
 }
 
 .hero{
-    display: flex;
     background-color: #1F2937;
+    padding: 40px 100px 40px 100px;
+    display: flex;
 }
 
 .subtext{
@@ -79,6 +81,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.left-placeholder {
+    flex: ;
 }
 
 .random-info {
@@ -119,5 +125,5 @@ footer {
 }
 
 #push-right {
-    margin-right: 100px;
+    margin-right: 90px;
 }
